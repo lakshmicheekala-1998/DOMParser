@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE employees [
+<!ELEMENT employees(employee+)>
+<!ELEMENT employee (FirstName,LastName,DOB)>
+<!ELEMENT FirstName (#PCDATA)>
+<!ELEMENT LastName (#PCDATA)>
+<!ELEMENT DOB (#PCDATA)>
+<!ATTLIST employee id CDATA #REQUIRED>
+]>

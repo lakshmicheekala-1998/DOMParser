@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE employees [
+<!ELEMENT employees (employee+)>
+<!ELEMENT employee (FirstName,LastName,DOB)>
+<!ELEMENT FirstName (#PCDATA)>
+<!ELEMENT LastName (#PCDATA)>
+<!ELEMENT DOB (#PCDATA)>
+<!ATTLIST employee id CDATA #REQUIRED>
+]>
+<employees>
+       <employee id="1">
+               <FirstName>Saurabh</FirstName>
+               <LastName>Gupta</LastName>
+               <DOB>1980-09-19</DOB>
+        </employee>
+        <employee id="2">
+                <FirstName>Gaurav</FirstName>
+                <LastName>Kumar</LastName>
+                <DOB>1986-05-15</DOB>
+        </employee>
+        <employee id="3">
+                <FirstName>Rithika</FirstName>
+                <LastName>Reddy</LastName>
+                <DOB>1998-11-12</DOB>
+        </employee>
+        <employee id="4">
+                <FirstName>Divya</FirstName>
+                <LastName>Krishna</LastName>
+                <DOB>1990-08-23</DOB>
+        </employee>
+</employees>
